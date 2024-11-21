@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Exam Mutant</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/hero.css" />
+    <link rel="stylesheet" href="./css/features.css" />
+    <link rel="stylesheet" href="./css/description.css" />
+    <link rel="stylesheet" href="./css/gallery.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="icon" href="./public/images/icon/logo.svg" type="image/icon type">
+    <script src="https://kit.fontawesome.com/71c9b9943e.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="page">
+
+
+    <article class="page__hero hero">
+        <nav class="hero__nav nav">
+
+            <div class="nav__logo">
+                <img src="./public/images/icon/logo.svg" alt="Website Logo">
+            </div>
+            <div class="nav__toggle" onclick="toggleNav()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <ul class="nav__list">
+                <div class="nav__toggle close" onclick="toggleNav()">
+                    <i class="fa-solid fa-x"></i>
+                </div>
+                <li class="nav__item">Signature Cakes</li>
+                <li class="nav__item">Bespoke Cakes</li>
+                <li class="nav__item">Wedding Cakes</li>
+                <li class="nav__item">Cakesicles</li>
+                <li class="nav__item">Chocolates</li>
+                <li class="nav__item">Master Classes</li>
+            </ul>
+
+            <div class="nav__icons icons">
+                <ul class="nav__list">
+                    <li class="nav__item"><i class="fa-solid fa-magnifying-glass"></i></li>
+                    <li class="nav__item"><i class="fa-regular fa-user"></i></li>
+                    <li class="nav__item"><i class="fa-solid fa-cart-shopping"></i></li>
+                </ul>
+            </div>
+        </nav>
+
+
+
+        <section class="hero__content">
+            <h1 class="hero__header">Passion Craft</h1>
+            <button class="hero__btn">Order now</button>
+        </section>
+
+
+        <section class="hero__footer">
+            <strong>More</strong>
+            <i class="fa-solid fa-chevron-down"></i>
+        </section>
+    </article>
+
+
+    <article class="page__features features">
+
+        <section class="features__list">
+            <div class="features__item">
+                <img src="./public/images/birthdaycake.jpg" />
+                <strong>Birthday Cakes</strong>
+            </div>
+            <div class="features__item">
+                <img src="./public/images/weddingcake.jpg" />
+                <strong>Wedding Cakes</strong>
+            </div>
+            <div class="features__item">
+                <img src="./public/images/christmascake.jpg" />
+                <strong>Christmas Cakes</strong>
+            </div>
+        </section>
+
+    </article>
+
+    <article class="page__description description">
+        <h3>About the
+            Cake Boutique</h3>
+        <p>The Cake Boutique combines craftsmanship and complexity into original cake design where delicious flavor and
+            art are synonymous, bringing
+            beauty into the most ordinary days. The Cake Boutique is Dubai’s first and only exclusively-online cake
+            shop. Innovative and advanced beyond
+            the cake design industry today, award-winning Cake Artist, Beth’s designs, are one-of-a-kind, featuring
+            digitally sketched illustrations that are
+            unique to the Waldorf Astoria DIFC</p>
+    </article>
+
+    <article class="page__gallery gallery">
+        <img src="./public/images/cake1.jpg" />
+        <img src="./public/images/cake2.jpg" />
+        <img src="./public/images/cake3.jpg" />
+        <img src="./public/images/cake4.jpg" />
+        <img src="./public/images/cake5.jpg" />
+        <img src="./public/images/cake6.jpg" />
+        <img src="./public/images/cake7.jpg" />
+        <img src="./public/images/cake8.jpg" />
+    </article>
+
+    <article class="page__footer footer">
+        <div class="footer__wrapper">
+            <div class="footer__newsletter">
+                <h3 class="footer__header">Newsletter</h3>
+                <form action="#" method="POST">
+
+                    <input type="email" id="email" name="email" placeholder="Email Address" required>
+
+
+                    <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+
+
+                    <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+
+                    <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+
+                    <div class="footer__permission permission">
+                        <strong>Marketing Permission</strong>
+
+                        <div class="permission__item">
+
+                            <input type="checkbox" id="email" name="email">
+                            <label for="email">Email</label><br>
+
+
+                        </div>
+
+                        <div class="permission__item">
+                            <input type="checkbox" id="sms" name="sms">
+                            <label for="sms">SMS</label><br>
+
+                        </div>
+
+                        <p class="permission__description">By signing up you are agreeing to receive the latest news and exclusive offers from our newsletters</p>
+
+
+                    </div>
+
+                    <button class="footer__btn" >Subscribe</button>
+                </form>
+            </div>
+
+            <div class="footer__links">
+                <ul class="footer__list">
+                    <li><a href="#">Signature Cakes</a></li>
+                    <li><a href="#">Bespoke Cakes</a></li>
+                    <li><a href="#">Wedding Cakes</a></li>
+                    <li><a href="#">Cakesicles</a></li>
+                    <li><a href="#">Chocolates</a></li>
+                    <li><a href="#">Master Classes</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__links">
+                <ul class="footer__list">
+                    <li><a href="#">Payment And Delivery</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li>
+                        <ul class="footer__icons">
+                            <li><i class="fa-brands fa-facebook"></i></li>
+                            <li><i class="fa-brands fa-youtube"></i></li>
+                            <li><i class="fa-brands fa-tiktok"></i></li>
+                            <li><i class="fa-brands fa-instagram"></i></li>
+                        </ul>
+                    </li>
+                    <li class="footer__payment">
+                        <img src="./public/images/visa.png" alt="Visa" />
+                        <img src="./public/images/mastercard.png" alt="Mastercard" />
+                        <img src="./public/images/american-express.png" alt="American Express" />
+                        <img src="./public/images/paypal.png" alt="Paypal" />
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </article>
+
+
+
+</body>
+<script src="./js/index.js"></script>
+
+</html>

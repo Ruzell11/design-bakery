@@ -1,0 +1,100 @@
+/* Font Definitions */
+@font-face {
+    font-family: 'BrownSunflower';
+    src: url('../public/fonts/BrownSunflower.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'CorporateS';
+    src: url('../public/fonts/CorporateSLight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'CromlinDEMO';
+    src: url('../public/fonts/CromlinDEMO-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'RRollie';
+    src: url('../public/fonts/RRollieRegular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'SofiaProRegCond';
+    src: url('../public/fonts/SofiaProRegCond.otf') format('opentype');
+}
+
+
+.page__description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+    margin: 70px 0 0;
+    background-color: #000;
+    min-height: 100vh;
+    color: #ddd;
+}
+
+.page__description h3 {
+    font-family: 'RRollie', "serif";
+    font-weight: 400;
+    font-size: 60px;
+    max-width: 360px;
+    line-height: 60px;
+    color: #ccc;
+    margin: 0 0 20px;
+}
+
+.page__description p {
+    font-family: "CorporateS", serif;
+    line-height: 50px;
+    font-size: 18px;
+    color: #ccc;
+    max-width: 1200px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .page__description {
+        padding: 80px;
+    }
+
+    .page__description h3 {
+        font-size: 45px; 
+    }
+
+    .page__description p {
+        font-size: 17px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .page__description {
+        padding: 60px; 
+        min-height: unset;
+    }
+
+    .page__description h3 {
+        font-size: 35px; 
+    }
+
+    .page__description p {
+        font-size: 16px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .page__description {
+        padding: 30px;
+    }
+
+    .page__description h3 {
+        font-size: 24px; 
+    }
+
+    .page__description p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+}
